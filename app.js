@@ -3,12 +3,12 @@ const app = Vue.createApp({
     data() {
         return {
             coffeeShops: [
-                { id: 1, name: 'Table 1',image: 'https://github.com/pondlnwtrue007/Lab6-cafeBookings/blob/master/img/image1.jpg?raw=true' },
-                { id: 2, name: 'Table 2',image: 'https://github.com/pondlnwtrue007/Lab6-cafeBookings/blob/master/img/image2.jpg?raw=true'},
-                { id: 3, name: 'Table 3',image: 'https://github.com/pondlnwtrue007/Lab6-cafeBookings/blob/master/img/image3.jpg?raw=true'},
-                { id: 4, name: 'Table 4',image: 'https://github.com/pondlnwtrue007/Lab6-cafeBookings/blob/master/img/image4.jpg?raw=true'},
-                { id: 5, name: 'Table 5',image: 'https://github.com/pondlnwtrue007/Lab6-cafeBookings/blob/master/img/image5.jpg?raw=true'},
-                { id: 6, name: 'Table 6',image: 'https://github.com/pondlnwtrue007/Lab6-cafeBookings/blob/master/img/image6.jpg?raw=true'},
+                { id: 1, name: 'ร้านThaKham Café อบอุ่นประมาณนี้',image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ17Qtle-01UUe_gsI-0VKVi4KaXqXM_FotcQ&usqp=CAU'},
+                { id: 2, name: 'ร้าน 5 Yen',image: 'https://th.readme.me/f/45557/6485fb68bde37328bbcd8de5.jpg'},
+                { id: 3, name: 'ร้านHazel’s Ice Cream Parlor and Fine Drinks ไอศกรีมรสเข้ม',image: 'https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcR-Z-s72uZLcl7b3Xba1u1-gdMiooKQubZRMZhNK3HrPXK7oVbH'},
+                { id: 4, name: 'ร้านFlock Dessert Bar & Bistro หวานจนขึ้นสนิม',image: 'https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTWF3PP9LCPfcR3LEDV8h4We-Y66zv1B-69Mx7uMYzbMQS-C2RK'},
+                { id: 5, name: 'ร้านTAAN Organic Café ให้เท่าที่ให้ได้',image: 'https://readthecloud.co/wp-content/uploads/2017/06/living-cafe-taan-4.jpg'},
+                { id: 6, name: 'ร้านSeven ทะเลในเมือง',image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgxsnJ_2bepqgEFfMTNGF6TDypoXNg4b-W65anSpun8SkyIDvF'},
                 // ... ร้านอื่นๆ
             ],
             currentShop: {},
