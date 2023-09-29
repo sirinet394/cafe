@@ -3,7 +3,7 @@ const app = Vue.createApp({
     data() {
         return {
             coffeeShops: [
-                { id: 1, name: 'ร้านThaKham Café อบอุ่นประมาณนี้',image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ17Qtle-01UUe_gsI-0VKVi4KaXqXM_FotcQ&usqp=CAU'},
+                { id: 1, name: 'ร้านThaKham Café ',image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ17Qtle-01UUe_gsI-0VKVi4KaXqXM_FotcQ&usqp=CAU'},
                 { id: 2, name: 'ร้าน 5 Yen',image: 'https://th.readme.me/f/45557/6485fb68bde37328bbcd8de5.jpg'},
                 { id: 3, name: 'ร้านHazel’s Ice Cream Parlor and Fine Drinks ไอศกรีมรสเข้ม',image: 'https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcR-Z-s72uZLcl7b3Xba1u1-gdMiooKQubZRMZhNK3HrPXK7oVbH'},
                 { id: 4, name: 'ร้านFlock Dessert Bar & Bistro หวานจนขึ้นสนิม',image: 'https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTWF3PP9LCPfcR3LEDV8h4We-Y66zv1B-69Mx7uMYzbMQS-C2RK'},
